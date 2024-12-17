@@ -27,5 +27,5 @@ time.sleep(5)
 christmas_image_path = get_random_image(WISH_IMAGE_DIR)
 if christmas_image_path:
     image_placeholder.image(christmas_image_path, use_container_width =True)
-    st.title("From :blue[Deanta] :rced[Technology Team] :sunglasses:")
+    st.title("From :blue[Deanta] :red[Technology Team] :sunglasses:")
 
