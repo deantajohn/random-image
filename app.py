@@ -17,10 +17,11 @@ def get_random_image(folder):
 st.markdown(
     """
     <style>
-    .css-1jc7ptx, .e1ewe7hr3, .viewerBadge_container__1QSob,
+    .css-1jc7ptx, .e1ewe7hr3, .stAppHeader, .viewerBadge_container__1QSob,
     .styles_viewerBadge__1yB5_, .viewerBadge_link__1S137,
     .viewerBadge_text__1JaDK {
         display: none;
+        visibility: hidden !important;
     }
     </style>
     """,
