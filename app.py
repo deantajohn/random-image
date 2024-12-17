@@ -9,7 +9,7 @@ WISH_IMAGE_DIR = "./images/wishes/"
 
 def get_random_image(folder):
     if os.path.exists(folder):
-        image_files = [f for f in os.listdir(folder)]
+        image_files = [f for f in os.listdir(folder) if f.endswith(('.png', '.jpg', '.jpeg', '.gif'))]
         if image_files:
             return os.path.join(folder, random.choice(image_files))
     return None
@@ -27,3 +27,5 @@ time.sleep(5)
 christmas_image_path = get_random_image(WISH_IMAGE_DIR)
 if christmas_image_path:
     image_placeholder.image(christmas_image_path, use_container_width =True)
+    st.title("From :blue[Deanta] :rced[Technology Team] :sunglasses:")
+
