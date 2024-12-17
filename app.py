@@ -3,7 +3,7 @@ import os
 import random
 
 # Path to the image directory
-IMAGE_DIR = "./random-image/images/"
+IMAGE_DIR = "./images/"
 
 # Check if the directory exists and contains images
 if os.path.exists(IMAGE_DIR):
